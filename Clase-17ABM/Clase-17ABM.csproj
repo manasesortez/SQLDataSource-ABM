@@ -110,7 +110,11 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Altas.aspx" />
+    <Content Include="altasArticulos.aspx" />
+    <Content Include="altasRubro.aspx" />
+    <Content Include="bajaArticulos.aspx" />
     <Content Include="Bajas.aspx" />
+    <Content Include="consultaArticulos.aspx" />
     <Content Include="consultas.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -135,6 +139,7 @@
       <DependentUpon>Dockerfile</DependentUpon>
     </None>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="modificacionArticulos.aspx" />
     <Content Include="Modificaciones.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -178,6 +183,20 @@
     <Compile Include="Altas.aspx.designer.cs">
       <DependentUpon>Altas.aspx</DependentUpon>
     </Compile>
+    <Compile Include="altasArticulos.aspx.cs">
+      <DependentUpon>altasArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="altasArticulos.aspx.designer.cs">
+      <DependentUpon>altasArticulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="altasRubro.aspx.cs">
+      <DependentUpon>altasRubro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="altasRubro.aspx.designer.cs">
+      <DependentUpon>altasRubro.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -187,12 +206,26 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="bajaArticulos.aspx.cs">
+      <DependentUpon>bajaArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bajaArticulos.aspx.designer.cs">
+      <DependentUpon>bajaArticulos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Bajas.aspx.cs">
       <DependentUpon>Bajas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Bajas.aspx.designer.cs">
       <DependentUpon>Bajas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultaArticulos.aspx.cs">
+      <DependentUpon>consultaArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultaArticulos.aspx.designer.cs">
+      <DependentUpon>consultaArticulos.aspx</DependentUpon>
     </Compile>
     <Compile Include="consultas.aspx.cs">
       <DependentUpon>consultas.aspx</DependentUpon>
@@ -217,6 +250,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="modificacionArticulos.aspx.cs">
+      <DependentUpon>modificacionArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modificacionArticulos.aspx.designer.cs">
+      <DependentUpon>modificacionArticulos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modificaciones.aspx.cs">
       <DependentUpon>Modificaciones.aspx</DependentUpon>
