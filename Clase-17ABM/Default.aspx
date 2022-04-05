@@ -18,23 +18,23 @@
             <div class ="row">
                 <div class="col-lg-6" style="background-color:#ededed; padding:15px; border-radius:12px;">
                         <div>
-                            <h1>Usuarios</h1>
+                            <h1>Personal</h1>
                         </div>
                         <hr />
                         <div>
-                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Altas.aspx">Altas</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Altas.aspx">Altas Personal</asp:HyperLink>
                         </div>
                         <br />
                         <div>
-                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/consultas.aspx">Consultas de Usuario</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/consultas.aspx">Consultas de Personal</asp:HyperLink>
                         </div>
                         <br />
                         <div>
-                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bajas.aspx">Bajas de Usuario</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bajas.aspx">Bajas de Personal</asp:HyperLink>
                         </div>
                         <br />
                         <div>
-                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Modificaciones.aspx">Modificacion de Usuarios</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Modificaciones.aspx">Modificacion de Personal</asp:HyperLink>
                         </div>
                     </div>
 
@@ -64,7 +64,28 @@
                             <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/modificacionArticulos.aspx">Modificacion de Articulos</asp:HyperLink>
                         </div>
                     </div>
+
+                 <div class="col-lg-6"  style="background-color:#ededed; margin-top: 30px; margin-bottom:50px; padding:15px; border-radius:12px;">
+                        <div>
+                            <h1>Marcas</h1>
+                        </div>
+                        <hr />
+                        <div>
+                            <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/altasMarcas.aspx">Altas de Marcas</asp:HyperLink>
+                        </div>
+                        <br />
+                        <div>
+                            <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/bajasMarcas.aspx">Bajas de Marcas</asp:HyperLink>
+                        </div>
+
+                        <br />
+                        <div>
+                            <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/modificacionesMarcas.aspx">Modificacion de Marcas</asp:HyperLink>
+                        </div>
+                    </div>
+
                 </div>
+
         </div>
     </form>
 </body>

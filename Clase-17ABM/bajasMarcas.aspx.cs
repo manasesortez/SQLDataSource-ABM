@@ -7,19 +7,25 @@ using System.Web.UI.WebControls;
 
 namespace Clase_17ABM
 {
-    public partial class bajaArticulos : System.Web.UI.Page
+    public partial class bajasMarcas : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
+        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
+
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
-            SqlDataSource1.DeleteParameters["id_Articulo"].DefaultValue = txtEliminarArticulos.Text;
+            var data = txtElimiMarcas.Text = "";
+            SqlDataSource1.DeleteParameters["id_Marca"].DefaultValue = data;
             int cant;
             cant = SqlDataSource1.Delete();
-            if(cant == 1)
+            if (cant == 1)
             {
                 lblNotificaciones.Text = "El Articulo se Borro Correctamente";
             }
@@ -27,11 +33,6 @@ namespace Clase_17ABM
             {
                 lblNotificaciones.Text = "El Articulo no Exite en la db";
             }
-        }
-
-        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
-        {
-
         }
     }
 }

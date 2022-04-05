@@ -111,9 +111,11 @@
     <Content Include="About.aspx" />
     <Content Include="Altas.aspx" />
     <Content Include="altasArticulos.aspx" />
+    <Content Include="altasMarcas.aspx" />
     <Content Include="altasRubro.aspx" />
     <Content Include="bajaArticulos.aspx" />
     <Content Include="Bajas.aspx" />
+    <Content Include="bajasMarcas.aspx" />
     <Content Include="consultaArticulos.aspx" />
     <Content Include="consultas.aspx" />
     <Content Include="Contact.aspx" />
@@ -141,6 +143,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="modificacionArticulos.aspx" />
     <Content Include="Modificaciones.aspx" />
+    <Content Include="modificacionesMarcas.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -190,6 +193,13 @@
     <Compile Include="altasArticulos.aspx.designer.cs">
       <DependentUpon>altasArticulos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="altasMarcas.aspx.cs">
+      <DependentUpon>altasMarcas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="altasMarcas.aspx.designer.cs">
+      <DependentUpon>altasMarcas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="altasRubro.aspx.cs">
       <DependentUpon>altasRubro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -219,6 +229,13 @@
     </Compile>
     <Compile Include="Bajas.aspx.designer.cs">
       <DependentUpon>Bajas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bajasMarcas.aspx.cs">
+      <DependentUpon>bajasMarcas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bajasMarcas.aspx.designer.cs">
+      <DependentUpon>bajasMarcas.aspx</DependentUpon>
     </Compile>
     <Compile Include="consultaArticulos.aspx.cs">
       <DependentUpon>consultaArticulos.aspx</DependentUpon>
@@ -264,6 +281,13 @@
     </Compile>
     <Compile Include="Modificaciones.aspx.designer.cs">
       <DependentUpon>Modificaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modificacionesMarcas.aspx.cs">
+      <DependentUpon>modificacionesMarcas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modificacionesMarcas.aspx.designer.cs">
+      <DependentUpon>modificacionesMarcas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

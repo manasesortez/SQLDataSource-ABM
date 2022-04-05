@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <div>
-                <h3>Altas</h3>
+                <h3>Altas Personal</h3>
             </div>
             <div>
                 <asp:Label ID="Label1" runat="server" Text="Nombre: "></asp:Label>
@@ -37,8 +37,9 @@
                 <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">Regresar</asp:HyperLink>
             </p>
 
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=AMTO_DEV;Initial Catalog=dbSitio;Persist Security Info=True;User ID=sa;Password=mamatina2.0" InsertCommand="INSERT INTO tbl_Usuarios(nombre_User, clave_User, mail_User) VALUES (@nombreUser, @claveUser, @mailUser)" OnSelecting="SqlDataSource1_Selecting" ProviderName="System.Data.SqlClient">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=AMTO_DEV;Initial Catalog=dbSitio;Persist Security Info=True;User ID=sa;Password=mamatina2.0" InsertCommand="INSERT INTO tbl_Usuarios(id_User, nombre_User, clave_User, mail_User) VALUES (@id_User, @nombreUser, @claveUser, @mailUser)" OnSelecting="SqlDataSource1_Selecting" ProviderName="System.Data.SqlClient">
                 <InsertParameters>
+                    <asp:Parameter Name="id_User" />
                     <asp:Parameter Name="nombreUser" />
                     <asp:Parameter Name="claveUser" />
                     <asp:Parameter Name="mailUser" />

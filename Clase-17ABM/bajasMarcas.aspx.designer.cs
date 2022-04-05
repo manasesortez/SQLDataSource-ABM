@@ -11,7 +11,7 @@ namespace Clase_17ABM
 {
 
 
-    public partial class Bajas
+    public partial class bajasMarcas
     {
 
         /// <summary>
@@ -33,22 +33,22 @@ namespace Clase_17ABM
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control txtEliminarPersona.
+        /// Control txtElimiMarcas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEliminarPersona;
+        protected global::System.Web.UI.WebControls.TextBox txtElimiMarcas;
 
         /// <summary>
-        /// Control btnEliminarPersona.
+        /// Control btnEliminarMarcas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEliminarPersona;
+        protected global::System.Web.UI.WebControls.Button btnEliminarMarcas;
 
         /// <summary>
         /// Control lblNotificaciones.

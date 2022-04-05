@@ -11,7 +11,7 @@ namespace Clase_17ABM
 {
 
 
-    public partial class Modificaciones
+    public partial class modificacionesMarcas
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace Clase_17ABM
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lblNotificacionPersonal.
+        /// Control lblNotificacionArticulo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNotificacionPersonal;
+        protected global::System.Web.UI.WebControls.Label lblNotificacionArticulo;
 
         /// <summary>
         /// Control label1.
@@ -42,31 +42,31 @@ namespace Clase_17ABM
         protected global::System.Web.UI.WebControls.Label label1;
 
         /// <summary>
-        /// Control txtCodigoPersonal.
+        /// Control txtCodigoMarca.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCodigoPersonal;
+        protected global::System.Web.UI.WebControls.TextBox txtCodigoMarca;
 
         /// <summary>
-        /// Control btnBuscarPersonal.
+        /// Control btnBuscarMarca.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnBuscarPersonal;
+        protected global::System.Web.UI.WebControls.Button btnBuscarMarca;
 
         /// <summary>
-        /// Control SqlDataSourcePersonal.
+        /// Control SqlDataSourceMarcas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourcePersonal;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceMarcas;
 
         /// <summary>
         /// Control Label2.
@@ -78,13 +78,13 @@ namespace Clase_17ABM
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control txtnombre_user.
+        /// Control txtnombre_marca.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtnombre_user;
+        protected global::System.Web.UI.WebControls.TextBox txtnombre_marca;
 
         /// <summary>
         /// Control Label3.
@@ -96,31 +96,13 @@ namespace Clase_17ABM
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control txtclave_user.
+        /// Control txtdescripcion_marca.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtclave_user;
-
-        /// <summary>
-        /// Control Label4.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
-
-        /// <summary>
-        /// Control txtmail_user.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtmail_user;
+        protected global::System.Web.UI.WebControls.TextBox txtdescripcion_marca;
 
         /// <summary>
         /// Control Button1.

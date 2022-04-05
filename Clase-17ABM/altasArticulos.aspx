@@ -43,7 +43,6 @@
                 <asp:Parameter Name="id_Rubro" />
             </InsertParameters>
         </asp:SqlDataSource>
-        
     </form>
 </body>
 </html>
